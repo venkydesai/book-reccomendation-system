@@ -6,9 +6,9 @@ Dataset - https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
 
 ## Collaborative-based Recommendation system
 
-1. First, Shortlisted users who have rated at least 200 books
-2. Then found the books which have been rated by at least 50 users
-3. Then found a subset of the above conditions and built a data frame with book names as rows and users as its columns.
-4. Found the cosine similarity between the books using the cosine_similarity function from sklearn. metrics.pairwise library
-5. Built a recommender system that took the name of the book as input and suggests 10 similar books with the help of similarity scores generated for each book with respect to other books
+1. Identify users who have rated a substantial number of books, setting a threshold of at least 200 book ratings.
+2. Identify books that have been rated by a significant number of users, setting a threshold of at least 50 user ratings.
+3. Create a data frame with book names as rows and users as columns, focusing on the subset of books that meet the above criteria.
+4. Calculate the cosine similarity between books using the cosine_similarity function from the sklearn.metrics.pairwise library.
+5. Implement a recommender system that accepts a book name as input and suggests 10 similar books based on the generated similarity scores for each book relative to others.
 
