@@ -1,7 +1,8 @@
-# book-recomendation-system
+# Book Recomendation system
 
 Dataset - https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset
 
-##Popular-based Recommendation system
+## Popular-based Recommendation system
 
-##Collabrative-based Recommendation system
+## Collabrative-based Recommendation system
+
